@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navaneeth VS - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-gray-800 text-white shadow-lg z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">Navaneeth VS</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-blue-400">About</a>
+        <a href="#skills" class="hover:text-blue-400">Skills</a>
+        <a href="#projects" class="hover:text-blue-400">Projects</a>
+        <a href="#certificates" class="hover:text-blue-400">Certificates</a>
+        <a href="#contact" class="hover:text-blue-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="text-center h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+    <h2 class="text-5xl font-bold">Hi, I'm Navaneeth 👋</h2>
+    <p class="mt-4 text-lg max-w-2xl">Aspiring Software Developer | Python & Django Enthusiast</p>
+    <a href="#projects" class="mt-6 inline-block bg-white text-blue-600 px-6 py-2 rounded-lg shadow-md font-semibold hover:bg-gray-200">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-center">About Me</h3>
+    <p class="text-lg text-gray-700 max-w-3xl mx-auto text-center">
+      I am a BSc IT graduate passionate about web development and software engineering.  
+      I enjoy working with Python, Django, and databases like SQLlite & MySQL.  
+      Currently learning Tailwind CSS.  
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-gray-100">
+    <h3 class="text-3xl font-bold mb-10 text-center">Skills</h3>
+    <div class="flex flex-wrap justify-center gap-4">
+      <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-lg">Python</span>
+      <span class="px-4 py-2 bg-green-100 text-green-800 rounded-lg">Django</span>
+      <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-lg">HTML</span>
+      <span class="px-4 py-2 bg-pink-100 text-pink-800 rounded-lg">CSS</span>
+      <span class="px-4 py-2 bg-pink-100 text-pink-800 rounded-lg">Tailwind CSS</span>
+      <span class="px-4 py-2 bg-red-100 text-red-800 rounded-lg">JavaScript</span>
+      <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-lg">MySQL</span>
+      <span class="px-4 py-2 bg-teal-100 text-teal-800 rounded-lg">SQLite</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-10 text-center">Projects</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+        <h4 class="font-bold text-xl">Online Blood Bank</h4>
+        <p class="mt-2 text-gray-600">A responsive web app to manage donor info, stock, and distribution.</p>
+        <p class="text-sm mt-2"><strong>Tech:</strong> PHP, JavaScript, MySQL</p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+        <h4 class="font-bold text-xl">E-Bike Road Assistance</h4>
+        <p class="mt-2 text-gray-600">Django-based app for real-time assistance, similar to Ather.</p>
+        <p class="text-sm mt-2"><strong>Tech:</strong> Django, SQLite, HTML, CSS, JS</p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+        <h4 class="font-bold text-xl">Bike Buddies (Ongoing)</h4>
+        <p class="mt-2 text-gray-600">A bike booking platform similar to Rapido for urban rides.</p>
+        <p class="text-sm mt-2"><strong>Tech:</strong> Django, SQLite, HTML, CSS, JS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="py-16 bg-gray-100 container mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6 text-center">Certificates</h3>
+    <ul class="list-disc list-inside text-gray-700 max-w-3xl mx-auto">
+      <li>Excel Certification – Coursera</li>
+      <li>Network Academy – 3 Day Workshop</li>
+      <li>Programming Python – Camerin Folks</li>
+      <li>AI Pair Programming with GitHub Copilot – LinkedIn</li>
+      <li>Web Designing Event (Euphoria 24) – RCSS</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-gray-800 text-white text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <p>Email: <a href="mailto:navaneeth.ws@gmail.com" class="underline">navaneeth.ws@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/navaneeth-vs-87b366289" class="underline">linkedin.com/in/navaneeth-vs</a></p>
+    <p>GitHub: <a href="https://github.com/navneethvs" class="underline">github.com/navneethvs</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-5 text-center text-sm bg-gray-900 text-gray-400">
+    © 2025 Navaneeth VS | Built with ❤️ using Tailwind CSS
+  </footer>
+
+</body>
+</html>
